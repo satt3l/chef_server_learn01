@@ -1,0 +1,7 @@
+name 'olign_handlers'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures olign_handlers'
+long_description 'Installs/Configures olign_handlers'
+version '0.1.7'

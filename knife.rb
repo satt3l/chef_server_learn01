@@ -1,0 +1,10 @@
+node_name                'trusyak'
+client_key               '/Users/aturubar/workspace/edu/chef/chef_server/data/trusyak.pem'
+chef_server_url          'https://172.28.128.200/organizations/olign'
+chef_validator           '/Users/aturubar/workspace/edu/chef/chef_server/data/olign-validator.pem'
+cache_type               'BasicFile'
+#cookbook_path '~/workspace/Chef/cookbooks'
+#data_bag_path '/Users/aturubar/workspace/Chef/data_bags'
+#chef_repo_path '~/workspace/Chef'
+#knife[:repository] = '~/workspace/Chef'
+ssl_verify_mode          :verify_none

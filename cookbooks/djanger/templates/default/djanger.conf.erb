@@ -1,0 +1,10 @@
+server {
+    listen 80;
+    server_name <%= @server_name %>;
+    <% if @uwsgi %>
+    location / {
+        uwsgi_pass unix:///<%= @path_to_app_sock %>;
+        include <% @path_to_uwsgi_params %>;
+    }
+    <%- end %>
+}
