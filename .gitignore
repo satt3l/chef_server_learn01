@@ -1,2 +1,2 @@
 Berksfile.lock
-data/*
+data/*.pem
