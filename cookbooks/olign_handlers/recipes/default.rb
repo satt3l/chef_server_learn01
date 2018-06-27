@@ -8,6 +8,6 @@ package 'cowsay'
 
 Chef.event_handler do
   on :run_completed do
-     exec('$(which cowsay) "You did it!"')
+    exec("\$(which cowsay) #{Chef.run_context.node['olign']['what_cowsay']}")
   end
 end

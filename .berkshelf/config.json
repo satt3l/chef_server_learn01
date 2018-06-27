@@ -1,0 +1,17 @@
+{
+        "chef": {
+                "chef_server_url":"https://172.28.128.200/organizations/olign",
+                "validation_client_name":"olign-validator",
+                "client_key":"./data/trusyak.pem",
+                "node_name":"trusyak"
+        },
+        "cookbook": {
+                "copyright":"Timofei Rusyak",
+                "email":"trusyak@olign.com",
+                "license":"reserved"
+        },
+        "allowed_licenses":[],
+        "raise_license_exception":false,
+        "ssl":{"verify":false},
+        "solver": "ruby"
+}
