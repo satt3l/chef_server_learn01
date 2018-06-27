@@ -4,6 +4,11 @@
 #
 # Copyright (c) 2018 The Authors, All Rights Reserved.
 #
+case node['platform']
+when 'centos', 'redhat'
+  package 'epel-release'
+end
+
 package 'cowsay'
 
 Chef.event_handler do
